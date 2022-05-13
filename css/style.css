@@ -37,3 +37,9 @@
     body.lasagna {
         background-color: rgba(255, 0, 0, 0.2);
     }
+
+    @media screen and (min-device-aspect-ratio: 16/9) {
+        article {
+            padding: 1rem 5vw;
+        }
+    }
