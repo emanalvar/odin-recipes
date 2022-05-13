@@ -1,6 +1,6 @@
 
     body.home{
-        background-color: rgba(125, 252, 125, 0.432);
+        background-color: rgba(125, 252, 125, 0.3);
         text-align: center;
     }
 
@@ -15,7 +15,7 @@
     }
 
     body.wings {
-        background-color: rgba(244, 165, 96, 0.623);
+        background-color: rgba(244, 165, 96, 0.4);
     }
 
     .heading, .desc{
@@ -28,4 +28,12 @@
         margin-right: auto;
         height: auto;
         width: 400px;
+    }
+
+    body.rigatoni {
+        background-color: #F0EAD6;
+    }
+
+    body.lasagna {
+        background-color: rgba(255, 0, 0, 0.2);
     }
