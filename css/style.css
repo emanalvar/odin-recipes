@@ -1,0 +1,16 @@
+
+div {
+    background-color:rgba(173, 255, 173, 0.5);
+    text-align: center;
+}
+
+footer {
+    font-size: 12px;
+    text-align: right;
+}
+
+img {
+    height: auto;
+    width: 600px;
+}
+
