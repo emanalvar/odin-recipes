@@ -4,11 +4,6 @@
         text-align: center;
     }
 
-    .home .img {
-        height: auto;
-        width: 750px;
-    }
-
     footer {
         text-align: right;
         font-size: 12px;
@@ -22,12 +17,19 @@
         text-align: center;
     }
 
+    .home .img {
+        height: auto;
+        width: 700px;
+        padding: 0%;
+    }
+
     .img {
         display: block;
         margin-left: auto;
         margin-right: auto;
         height: auto;
         width: 400px;
+        padding: 0%;
     }
 
     body.rigatoni {
@@ -38,8 +40,11 @@
         background-color: rgba(255, 0, 0, 0.2);
     }
 
-    @media screen and (min-device-aspect-ratio: 16/9) {
-        article {
-            padding: 1rem 5vw;
-        }
+    a {
+        text-decoration: none;
+        color: #000;
+    }
+
+    a:hover {
+        color: red;
     }
